@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activity2"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <SeekBar
+        android:id="@+id/my_seek_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+    </SeekBar>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_msb"
+        android:gravity="center_horizontal"
+        android:text="0">
+
+    </TextView>
+        <DatePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_data_picker"
+            >
+
+        </DatePicker>
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_timepicker"
+            >
+
+        </TimePicker>
+
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/my_spinner2"
+
+            ></Spinner>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/grade">
+
+        </ListView>
+
+
+    </LinearLayout>
+</ScrollView>
